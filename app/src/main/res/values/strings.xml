@@ -1,3 +1,8 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">project_shop</string>
+    <string name="intro_title">Welcome to <font color ="#39c7a5">Digital Store</font>\n a<font color="#39c7a5"> Gateway </font> to the Latest Tech</string>
+    <string name="intro_sub_title" tools:ignore="StringEscaping">Sign in to explore a wide range of cutting-edge\n digital products.
+        Don\\'t have an account yet?\n
+    Register now and enjoy a seamless\n
+        and secure shopping experience</string>
 </resources>
