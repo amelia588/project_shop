@@ -53,7 +53,7 @@ dependencies {
 
     // Otras dependencias
     implementation("com.google.code.gson:gson:2.9.1")
-    implementation("com.tbuonomo:dotsindicator:5.0")
+    implementation("com.tbuonomo:dotsindicator:5.0") // Mantén la versión más reciente
     implementation(platform("com.google.firebase:firebase-bom:33.3.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-database-ktx")

@@ -11,7 +11,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.project_shop.databinding.ActivityIntro2Binding
 
-class IntroActivity2 : AppCompatActivity() {
+class IntroActivity2 : baseActivity() {
 
     private lateinit var binding: ActivityIntro2Binding
 
@@ -38,7 +38,7 @@ class IntroActivity2 : AppCompatActivity() {
         // Manejo del texto con formato HTML
         val textView: TextView = findViewById(R.id.textView3)
         val formattedText = Html.fromHtml(
-            "Welcome to <font color='#39c7a5'>Digital Store</font><br> a <font color='#39c7a5'>Gateway</font> to the Latest Tech",
+            "Welcome to <font color='#39c7a5'>Digital Store</font><br> a <font color='#f16bf3'>Gateway</font> to the Latest Tech",
             Html.FROM_HTML_MODE_LEGACY
         )
         textView.text = formattedText
