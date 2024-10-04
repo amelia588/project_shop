@@ -13,9 +13,23 @@
         android:theme="@style/Theme.Project_shop"
         tools:targetApi="31">
         <activity
-            android:name=".baseActivity"
+            android:name=".homeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AutenticationActivity"
             android:exported="false" />
-        <!-- IntroActivity2 -->
+        <activity
+            android:name=".Activity_carro_compras"
+            android:exported="false" />
+        <activity
+            android:name=".baseActivity"
+            android:exported="false" /> <!-- IntroActivity2 -->
         <activity
             android:name=".IntroActivity2"
             android:exported="true">
@@ -27,7 +41,7 @@
         </activity> <!-- MainActivity -->
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>
